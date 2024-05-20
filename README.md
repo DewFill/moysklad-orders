@@ -1,4 +1,4 @@
-1. ```git clone https://github.com/DewFill/moysklad-orders.git```
+1. ```git clone https://github.com/DewFill/moysklad-orders.git``` - clone repo
 
 2. ```docker-compose -f compose-dev.yml -p moysklad-orders up -d --build``` - development, easily change internal files without needing to rebuild the Docker image. Any modifications made to the files on the local machine are immediately reflected inside the container, facilitating a rapid development workflow.
 

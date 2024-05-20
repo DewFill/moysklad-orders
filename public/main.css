@@ -1,0 +1,117 @@
+.account {
+    /*height: 30px;*/
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+
+.s95wp9u {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.current-status {
+    border-radius: 2px 2px 2px 2px;
+    color: #fff;
+    height: 18px;
+    overflow: hidden;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.arrow2 {
+    display: inline-block;
+    float: right;
+    height: 8px;
+    position: relative;
+    right: 8px;
+}
+
+.arrow1.arrow2 {
+    background: url(https://online.moysklad.ru/react/r1352/236a280c944f46cacb72.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    top: 4px;
+    width: 8px;
+}
+
+.current-status-text {
+    margin-left: 10px;
+    margin-right: 25px;
+    position: relative;
+    top: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 250px;
+}
+
+.sr0qkjv {
+    margin-right: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.s1ncmhn5 {
+    margin-right: 5px;
+    width: 16px;
+    min-width: 16px;
+    height: 16px
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.clr-40931 {
+    background-color: rgb(0, 159, 227);
+}
+
+.clr-15106326 {
+    background-color: rgb(230, 129, 22);
+}
+
+.clr-12430848 {
+    background-color: rgb(189, 174, 0);
+}
+
+.clr-10774205 {
+    background-color: rgb(164, 102, 189);
+}
+
+.clr-18842 {
+    background-color: rgb(0, 73, 154);
+}
+
+.clr-34617 {
+    background-color: rgb(0, 135, 57);
+}
+
+.statuses {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    border: solid 1px #bfbfbf;
+    padding: 0 5px;
+    background-color: white;
+}
+
+.statuses > * {
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    width: 180px;
+}
+
+.status:hover {
+    cursor: pointer;
+    background-color: #cccccc;
+}

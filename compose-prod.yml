@@ -1,0 +1,9 @@
+services:
+  server:
+    working_dir: /var/www/html
+    build:
+      context: .
+      target: prod
+    ports:
+      - 80:80
+      - 443:443

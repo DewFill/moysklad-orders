@@ -12,7 +12,7 @@ class MainController extends \controllers\AbstractController
 {
     function actionMain($data): void
     {
-        $data = OrderCollection::init(User::getToken())->getArrayCopy();
+        $data["orders"] = OrderCollection::init(User::getToken())->getArrayCopy();
         $this->view("main", $data);
     }
 }

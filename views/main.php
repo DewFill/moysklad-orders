@@ -38,7 +38,7 @@ use models\StatusCollection; ?>
     <tbody>
     <?php
     $statusCollection = StatusCollection::init();
-    foreach ($data as $order): ?>
+    foreach ($data["orders"] as $order): ?>
         <tr>
             <td><a href="<?= $order->getUrl() ?>"><?= $order->getName() ?></a></td>
             <td><?= $order->getCreatedAt() ?></td>

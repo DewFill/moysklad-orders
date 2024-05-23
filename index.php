@@ -20,7 +20,6 @@ require "models/Currency.php";
 use controllers\AuthController;
 use controllers\MainController;
 
-
 if ($_SERVER['REQUEST_METHOD'] === 'GET' and
     !isset($_COOKIE["token"]) and
     $_SERVER["REQUEST_URI"] !== "/api/auth") {

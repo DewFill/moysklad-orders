@@ -1,5 +1,6 @@
 services:
   server:
+    container_name: "server"
     working_dir: /var/www/html
     build:
 
